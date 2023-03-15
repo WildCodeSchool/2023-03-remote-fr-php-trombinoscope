@@ -1,4 +1,4 @@
- div img {
+ div img{
     margin: 1.5rem;
     padding: .5rem;
     height: 15rem;
@@ -6,20 +6,19 @@
     border-radius: 26px;
     cursor: pointer;
  }
-
-
- .galerie {
+ 
+ 
+ .galerie{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
  }
-
- .galerie img {
+ .galerie img{
     margin: 1.5rem;
     padding: .5rem;
     height: 15rem;
     width: 15rem;
     border-radius: 26px;
-
+    
  }
