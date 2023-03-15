@@ -9,8 +9,8 @@ JF_container.addEventListener("click", function(){
 
 
 
-let Alexandre = document.querySelector(".AlexandreP");
-let Alexandre_container = document.querySelector(".AlexandreP_container");
+let Alexandre = document.querySelector(".Alexandre");
+let Alexandre_container = document.querySelector(".Alexandre_container");
 Alexandre.addEventListener("click", function(){
     Alexandre_container.classList.toggle("active")
 })
@@ -21,8 +21,8 @@ Alexandre_container.addEventListener("click", function(){
 
 
 
-let Alexis = document.querySelector(".AlexisM");
-let Alexis_container = document.querySelector(".AlexisM_container");
+let Alexis = document.querySelector(".Alexis");
+let Alexis_container = document.querySelector(".Alexis_container");
 Alexis.addEventListener("click", function(){
     Alexis_container.classList.toggle("active")
 })
@@ -45,8 +45,8 @@ Arthur_container.addEventListener("click", function(){
 
 
 
-let Baptiste = document.querySelector(".BaptisteC");
-let Baptiste_container = document.querySelector(".BaptisteC_container");
+let Baptiste = document.querySelector(".Baptiste");
+let Baptiste_container = document.querySelector(".Baptiste_container");
 Baptiste.addEventListener("click", function(){
     Baptiste_container.classList.toggle("active")
 })
