@@ -1,5 +1,5 @@
 .JF_container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -15,6 +15,7 @@
 }
 
 .JF_popup {
+    position: fixed;
     height: 35rem;
     width: 70rem;
     background-color: #F76C6C;
@@ -58,8 +59,191 @@
     }
 }
 
+.AlexandreP_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.AlexandreP_container.active {
+    display: flex;
+}
+
+.AlexandreP_popup {
+    position: fixed;
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.AlexandrePDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreAlexandreP {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreAlexandreP {
+    font-size: 2rem;
+}
+
+.AlexandreP_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.AlexisM_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.AlexisM_container.active {
+    display: flex;
+}
+
+.AlexisM_popup {
+    position: fixed;
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.AlexisMDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreAlexisM {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreAlexisM {
+    font-size: 2rem;
+}
+
+.AlexisM_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.Arthur_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.Arthur_container.active {
+    display: flex;
+}
+
+.Arthur_popup {
+    position: fixed;
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.ArthurDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreArthur {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreArthur {
+    font-size: 2rem;
+}
+
+.Arthur_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
 .Laurent_container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -75,6 +259,7 @@
 }
 
 .Laurent_popup {
+    position: fixed;
     height: 35rem;
     width: 70rem;
     background-color: #F76C6C;
@@ -119,7 +304,7 @@
 }
 
 .NinaS_container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -135,6 +320,7 @@
 }
 
 .NinaS_popup {
+    position: fixed;
     height: 35rem;
     width: 70rem;
     background-color: #F76C6C;
@@ -179,7 +365,7 @@
 }
 
 .Titouan_container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -195,6 +381,7 @@
 }
 
 .Titouan_popup {
+    position: fixed;
     height: 35rem;
     width: 70rem;
     background-color: #F76C6C;
@@ -239,7 +426,7 @@
 }
 
 .Valentin_container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -255,6 +442,7 @@
 }
 
 .Valentin_popup {
+    position: fixed;
     height: 35rem;
     width: 70rem;
     background-color: #F76C6C;
@@ -299,7 +487,7 @@
 }
 
 .VictoriaG_container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -315,6 +503,7 @@
 }
 
 .VictoriaG_popup {
+    position: fixed;
     height: 35rem;
     width: 70rem;
     background-color: #F76C6C;
@@ -359,7 +548,7 @@
 }
 
 .VincentR_container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -375,6 +564,7 @@
 }
 
 .VincentR_popup {
+    position: fixed;
     height: 35rem;
     width: 70rem;
     background-color: #F76C6C;
