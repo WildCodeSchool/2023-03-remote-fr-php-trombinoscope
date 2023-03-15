@@ -968,3 +968,189 @@
         transform: translateY(0rem);
     }
 }
+
+
+.Alexandre_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.Alexandre_container.active {
+    display: flex;
+}
+
+.Alexandre_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.AlexandreDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreAlexandre {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreAlexandre {
+    font-size: 2rem;
+}
+
+.Alexandre_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+
+
+
+.Alexis_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.Alexis_container.active {
+    display: flex;
+}
+
+.Alexis_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.AlexisDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreAlexis {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreAlexis {
+    font-size: 2rem;
+}
+
+.Alexis_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+
+
+.Arthur_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.Arthur_container.active {
+    display: flex;
+}
+
+.Arthur_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.ArthurDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreArthur {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreArthur {
+    font-size: 2rem;
+}
+
+.Arthur_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
