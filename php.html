@@ -1,54 +1,160 @@
 <!DOCTYPE html>
 <html lang="Fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, inial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
 
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inial-scale=1">
-    <link rel="stylesheet" href="style.css">
     <title>l' équipe PHP</title>
-</head>
+  </head>
 
-<body>
     <nav>
-        <ul>
-            <li><a href="#">A propos de nous</a></li>
-            <li><a href="#">L'équipe PHP</a></li>
-            <li><a href="#">Nous contacter</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">A propos de nous</a></li>
+        <li><a href="#">L'équipe PHP</a></li>
+        <li><a href="#">Nous contacter</a></li>
+      </ul>
     </nav>
     <header>
-        <h1>Team PHP</h1>
+      <h1>Team PHP</h1>
     </header>
+    
     <div>
-        <img src="/images/JF.jpg" alt="formateur" />
-    </div>
-    <div class="galerie">
-        <img src="/images/AlexandreP.jpg" alt="étudiant" />
-        <img src="/images/AlexisM.jpg" alt="étudiant" />
-        <img src="/images/\photo\">
-        <img src="/images/BaptisteC.jpg" alt="étudiant" />
-        <img src="/images/BrianV.jpg" alt="étudiant" />
-        <img src="/images/JohannG.jpg" alt="étudiant" />
-        <img src="/images/JossL.jpg" alt="étudiant" />
-        <img src="/images/JulienL.jpg" alt="étudiant" />
-        <img src="/images/Laurent.jpg" alt="étudiant" />
-        <img src="/images/NinaS.jpg" alt="étudiante" />
-        <img src="/images/Titouan.jpg" alt="étudiant" />
-        <img src="/images/Valentin.jpg" alt="étudiant" />
-        <img src="/images/VictoriaG.jpg" alt="étudiante" />
-        <img src="/images/VincentR.jpg" alt="étudiant" />
-        <img src="/images/VirginieL.jpg" alt="étudiante" />
+      <img class="JF" src="/images/JF.jpg" alt="formateur" />
+  </div>
+  <div class="JF_container">
 
+      <section class="JF_popup"> 
+          <div>
+              <img class="JFDansPopup" src="/images/JF.jpg" alt="formateur" />
+          </div>
+          <div class="JF_description">
+              <p class="titreJF">Jean-François MORIN</p>
+              <p class="petitTitreJF">Le formateur !</p>
+              <p class="emailJF">Email : JFMorin@gmail.com</p>
+              <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed. Illum.</p>
+          </div>
+      </section>
+  </div>
+    <!--Laurent -->
+  <div>
+    <img class="Laurent" src="/images/Laurent.jpg" alt="élèves" />
+</div>
+<div class="Laurent_container">
+
+    <section class="Laurent_popup"> 
+        <div>
+            <img class="LaurentDansPopup" src="/images/Laurent.jpg" alt="élèves" />
+        </div>
+        <div class="Laurent_description">
+            <p class="titreLaurent">Laurent MONTMAYEUR</p>
+            <p class="petitTitreLaurent">C'est lui même</p>
+            <p class="emailLaurent">Email : Laurent@gmail.com</p>
+            <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed. Illum.</p>
+        </div>
+    </section>
+</div>
+    
+<div>
+  <img class="NinaS" src="/images/NinaS.jpg" alt="élève" />
+</div>
+<div class="NinaS_container">
+
+  <section class="NinaS_popup"> 
+      <div>
+          <img class="NinaSDansPopup" src="/images/NinaS.jpg" alt="élèves" />
+      </div>
+      <div class="NinaS_description">
+          <p class="titreNinaS">Nina SCHADEL</p>
+          <p class="petitTitreNinaS">La râleuse pro</p>
+          <p class="emailNinaS">Email : NinaSchadel@gmail.com</p>
+          <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed. Illum.</p>
+      </div>
+  </section>
+</div>
+
+<div>
+  <img class="Titouan" src="/images/Titouan.jpg" alt="élève" />
+</div>
+<div class="Titouan_container">
+
+  <section class="Titouan_popup"> 
+      <div>
+          <img class="TitouanDansPopup" src="/images/Titouan.jpg" alt="élèves" />
+      </div>
+      <div class="Titouan_description">
+          <p class="titreTitouan">Titouan Lahely</p>
+          <p class="petitTitreTitouan">La bête, l'homme aux bras d'acier</p>
+          <p class="emailTitouan">Email : Titouan@gmail.com</p>
+          <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed. Illum.</p>
+      </div>
+  </section>
+</div>
+
+<div>
+  <img class="Valentin" src="/images/Valentin.jpg" alt="élève" />
+</div>
+<div class="Valentin_container">
+
+  <section class="Valentin_popup"> 
+      <div>
+          <img class="ValentinDansPopup" src="/images/Valentin.jpg" alt="élèves" />
+      </div>
+      <div class="Valentin_description">
+          <p class="titreValentin">Valentin Philippeau</p>
+          <p class="petitTitreValentin">Valentin l'homme discret</p>
+          <p class="emailValentin">Email : Valentin@gmail.com</p>
+          <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed. Illum.</p>
+      </div>
+  </section>
+</div>
+
+<div>
+  <img class="VictoriaG" src="/images/VictoriaG.jpg" alt="élève" />
+</div>
+<div class="VictoriaG_container">
+
+  <section class="VictoriaG_popup"> 
+      <div>
+          <img class="VictoriaGDansPopup" src="/images/VictoriaG.jpg" alt="élèves" />
+      </div>
+      <div class="VictoriaG_description">
+          <p class="titreVictoriaG">Victoria Gambier</p>
+          <p class="petitTitreVictoriaG">Victoria la nordiste</p>
+          <p class="emailVictoriaG">Email : VictoriaG@gmail.com</p>
+          <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed. Illum.</p>
+      </div>
+  </section>
+</div>
+
+<div>
+  <img class="VincentR" src="/images/VincentR.jpg" alt="élève" />
+</div>
+<div class="VincentR_container">
+
+  <section class="VincentR_popup"> 
+      <div>
+          <img class="VincentRDansPopup" src="/images/VincentR.jpg" alt="élèves" />
+      </div>
+      <div class="VincentR_description">
+          <p class="titreVincentR">Vincent Ravanel</p>
+          <p class="petitTitreVincentR">Vincent R</p>
+          <p class="emailVincentR">Email : VincentR@gmail.com</p>
+          <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed. Illum.</p>
+      </div>
+  </section>
+</div>
     </div>
     <div class="button">
         <a href="#" class=" btn btn-primary">haut ↑</a>
     </div>
 
-    <footer>
-        @copyright 2023
-    </footer>
-</body>
-
+    <footer>@copyright 2023</footer>
+  
+  
+  
+  
+  <script src="popupscript.js"></script>
+  </body>
 
 </html>
