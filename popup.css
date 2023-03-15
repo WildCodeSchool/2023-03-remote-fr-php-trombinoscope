@@ -1,0 +1,419 @@
+.JF_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.JF_container.active {
+    display: flex;
+}
+
+.JF_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.JFDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreJF {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreJF {
+    font-size: 2rem;
+}
+
+.JF_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.Laurent_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.Laurent_container.active {
+    display: flex;
+}
+
+.Laurent_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.LaurentDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreLaurent {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreLaurent {
+    font-size: 2rem;
+}
+
+.Laurent_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.NinaS_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.NinaS_container.active {
+    display: flex;
+}
+
+.NinaS_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.NinaSDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreNinaS {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreNinaS {
+    font-size: 2rem;
+}
+
+.NinaS_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.Titouan_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titouan_container.active {
+    display: flex;
+}
+
+.Titouan_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.TitouanDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreTitouan {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreTitouan {
+    font-size: 2rem;
+}
+
+.Titouan_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.Valentin_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.Valentin_container.active {
+    display: flex;
+}
+
+.Valentin_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.ValentinDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreValentin {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreValentin {
+    font-size: 2rem;
+}
+
+.Valentin_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.VictoriaG_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.VictoriaG_container.active {
+    display: flex;
+}
+
+.VictoriaG_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.VictoriaGDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreVictoriaG {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreVictoriaG {
+    font-size: 2rem;
+}
+
+.VictoriaG_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.VincentR_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.VincentR_container.active {
+    display: flex;
+}
+
+.VincentR_popup {
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    animation: animationA 1s linear .2s backwards;
+}
+
+.VincentRDansPopup {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+
+.titreVincentR {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.petitTitreVincentR {
+    font-size: 2rem;
+}
+
+.VincentR_description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@keyframes animationA {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
