@@ -15,57 +15,6 @@
     
 }
 
-.JF_container{
-    position: absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-.JF_container.active{
-    display:flex;
-}
-.JF_popup{
-    height: 35rem;
-    width: 70rem;
-    background-color: #F76C6C;
-    border-radius: 1rem;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    animation: animationA 1s ease-in-out .5s backwards;
-}
-.JFDansPopup{
-    height: 30rem;
-    width:30rem;
-    position: relative;
-}
-.titreJF{
-    font-size: 4rem;
-    text-align: center;
-}
-.petitTitreJF{
-    font-size: 2rem;
-}
-.JF_description{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-@keyframes animationA {
-    0%{
-        opacity: 0;
-        transform: translateY(-1rem);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0rem);
-    }
-}
 
 /*ALEXANDREP*/
 .Alexandre_container{
