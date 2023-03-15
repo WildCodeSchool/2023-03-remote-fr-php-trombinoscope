@@ -14,3 +14,534 @@ for{
     
     
 }
+
+.JF_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.JF_container.active{
+    display:flex;
+}
+.JF_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.JFDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreJF{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreJF{
+    font-size: 2rem;
+}
+.JF_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+/*ALEXANDRE*/
+.Alexandre_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Alexandre_container.active{
+    display:flex;
+}
+.Alexandre_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.AlexandreDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreAlexandre{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreAlexandre{
+    font-size: 2rem;
+}
+.Alexandre_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+/*ALEXIS*/
+.Alexis_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Alexis_container.active{
+    display:flex;
+}
+.Alexis_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.AlexisDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreAlexis{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreAlexis{
+    font-size: 2rem;
+}
+.Alexis_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+/*ARTHUR*/
+.Arthur_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Arthur_container.active{
+    display:flex;
+}
+.Arthur_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.ArthurDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreArthur{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreArthur{
+    font-size: 2rem;
+}
+.Arthur_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+/*BAPTISTE*/
+.Baptiste_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Baptiste_container.active{
+    display:flex;
+}
+.Baptiste_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.BaptisteDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreBaptiste{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreBaptiste{
+    font-size: 2rem;
+}
+.Baptiste_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+/*BRIAN*/
+.Brian_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Brian_container.active{
+    display:flex;
+}
+.Brian_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.BrianDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreBrian{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreBrian{
+    font-size: 2rem;
+}
+.Brian_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+/*JOHANN*/
+.Johann_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Johann_container.active{
+    display:flex;
+}
+.Johann_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.JohannDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreJohann{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreJohann{
+    font-size: 2rem;
+}
+.Johann_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+/*JOSS*/
+.Joss_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Joss_container.active{
+    display:flex;
+}
+.Joss_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.JossDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreJoss{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreJoss{
+    font-size: 2rem;
+}
+.Joss_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+/*JULIEN*/
+.Julien_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Julien_container.active{
+    display:flex;
+}
+.Julien_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.JulienDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreJulien{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreJulien{
+    font-size: 2rem;
+}
+.Julien_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+/*VIRGINIE*/
+.Virginie_container{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Virginie_container.active{
+    display:flex;
+}
+.Virginie_popup{
+    height: 35rem;
+    width: 70rem;
+    background-color: #F76C6C;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    animation: animationA 1s ease-in-out .5s backwards;
+}
+.VirginieDansPopup{
+    height: 30rem;
+    width:30rem;
+    position: relative;
+}
+.titreVirginie{
+    font-size: 4rem;
+    text-align: center;
+}
+.petitTitreVirginie{
+    font-size: 2rem;
+}
+.Virginie_description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@keyframes animationA {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+
