@@ -1,0 +1,16 @@
+for{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-primary{
+   display: flex;
+    cursor: pointer;
+    background-color: #F76C6C;
+    border-radius: 9.5px;
+    border: solid;
+    padding: .5rem;
+    margin: 1rem;
+    
+    
+}
