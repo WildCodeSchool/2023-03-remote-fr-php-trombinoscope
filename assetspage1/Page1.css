@@ -1,0 +1,181 @@
+
+* {
+    font-family: Inter;
+    line-height: 2rem;
+}
+
+:root {
+    --primary-color: #F76C6C;
+    --secondary-color: #2B2929;
+    --tertiary-color: #C2C2C2;
+    --margin-top: 3rem;
+}
+
+/* navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #333;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fcdfdf;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+nav ul li a:before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e28a8a;
+    transform: scaleX(0);
+    transition: transform 0.3s linear;
+}
+
+nav ul li a:hover:before {
+    transform: scaleX(1);
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px;
+}
+
+/* image principale*/
+main > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid var(--secondary-color);   
+}
+
+/* Titres */
+h2 {
+   text-align: center;
+   margin: auto;
+   margin-top: var(--margin-top);
+   background: var(--primary-color); 
+   border: 1px solid rgba(0, 0, 0, 0.7);
+   text-shadow: 0px 4px 4px black;
+   color: #FFFFFF ;
+   font-size: 16px;
+  
+}
+
+
+.firsth2 {
+    width: 175px;
+}
+.secondh2 {
+    width: 140px;
+}
+.thirdh2 {
+    width: 270px;
+}
+
+
+/* Réseaux */
+
+div img {
+    margin: auto;
+    width: 42px;
+    height: 42px;
+}
+
+div {
+    display: flex;
+    justify-content:space-around;
+}
+
+.p1 {
+    padding-top: 2rem;
+
+}
+
+.p2 {
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.p3 {
+    padding-top: 1rem;
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+/* button */
+.button{
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-primary{
+    cursor: pointer;
+    width: 80px;
+    height: 24px;
+    float: right;
+    background-color: #F76C6C;
+    color:white;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+footer{
+    border: solid;
+    border-color: black;
+    height: 3rem;
+    background-color:#C2C2C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* responsive tablette & écran */
+
+@media screen and (min-width: 768px) {
+    
+main > img {
+    width: 100%
+}
+
+nav {
+    font-size: 20px;
+} 
+
+}
+
