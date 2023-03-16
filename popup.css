@@ -124,6 +124,7 @@
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 9999;
 }
 
 .Wilder_container.active {
@@ -131,7 +132,6 @@
 }
 
 .Wilder_popup {
-
     position: fixed;
     height: 35rem;
     width: 70rem;
@@ -141,6 +141,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     animation: animationA 1s linear .2s backwards;
+    overflow-y: auto;
+    z-index: 10000;
+    /* ajout de la propriété overflow-y pour permettre le défilement en mode responsive */
 }
 
 .WilderDansPopup {
@@ -205,7 +208,7 @@
     /* adjust styles for small screens */
     .Wilder_popup {
         height: auto;
-        width: 90%;
+        width: 50%;
         max-width: none;
         grid-template-columns: 1fr;
         padding: 2rem;
