@@ -3,27 +3,27 @@
   justify-content: flex-end;
 }
 
-.btn-primary{
+.btn-primary {
   cursor: pointer;
   width: 68px;
   height: 26px;
-  background-color: #74187;
-  color:white;
+  background-color: #F74187;
+  color: white;
   border-style: none;
   border-radius: 20px;
-text-align: center;
-text-decoration: none;
-font-weight: bold;
-position: absolute;
-right: 0px;
-bottom: -780%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  right: 0px;
+  bottom: -780%;
 }
 
 @media screen and (min-width: 1024px) {
-.btn-primary{
-position: absolute;
-right: 20px;
-bottom: -125%;
-}
+  .btn-primary {
+    position: absolute;
+    right: 20px;
+    bottom: -125%;
+  }
 
 }
