@@ -7,7 +7,7 @@
   cursor: pointer;
   width: 68px;
   height: 26px;
-  background-color: #F76C6C;
+  background-color: #74187;
   color:white;
   border-style: none;
   border-radius: 20px;
@@ -25,4 +25,5 @@ position: absolute;
 right: 20px;
 bottom: -125%;
 }
+
 }
