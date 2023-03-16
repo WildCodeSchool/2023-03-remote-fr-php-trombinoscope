@@ -14,14 +14,16 @@
   text-align: center;
   text-decoration: none;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   right: 0px;
   bottom: -780%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 1024px) {
   .btn-primary {
-    position: absolute;
+    position: relative;
     right: 20px;
     bottom: -125%;
   }
