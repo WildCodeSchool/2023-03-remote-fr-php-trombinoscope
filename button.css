@@ -4,11 +4,28 @@
 }
 
 .btn-primary {
-  display: flex;
   cursor: pointer;
-  background-color: #e28a8a;
-  border-radius: 9.5px;
-  padding: 0.5rem;
-  margin: 1rem;
+  width: 68px;
+  height: 26px;
+  background-color: #F74187;
+  color: white;
+  border-style: none;
+  border-radius: 20px;
+  text-align: center;
   text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  right: 0px;
+  bottom: -780%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn-primary {
+    position: relative;
+    right: 20px;
+    bottom: -125%;
+  }
+
 }

@@ -18,7 +18,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -33,15 +33,20 @@
 }
 
 .titreJF {
+    font-family: 'Varela Round', sans-serif;
     font-size: 4rem;
     text-align: center;
 }
 
 .petitTitreJF {
+    font-family: 'Varela Round', sans-serif;
     font-size: 2rem;
 }
 
 .JF_description {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -132,7 +137,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -243,7 +248,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -355,7 +360,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -379,6 +384,7 @@
 }
 
 .Laurent_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -467,7 +473,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -491,6 +497,7 @@
 }
 
 .NinaS_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -579,7 +586,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -603,6 +610,7 @@
 }
 
 .Titouan_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -691,7 +699,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -715,6 +723,7 @@
 }
 
 .Valentin_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -802,7 +811,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -826,6 +835,7 @@
 }
 
 .VictoriaG_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -912,7 +922,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -936,6 +946,7 @@
 }
 
 .VincentR_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -1023,7 +1034,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -1047,6 +1058,7 @@
 }
 
 .Baptiste_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -1133,7 +1145,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -1157,6 +1169,7 @@
 }
 
 .Brian_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -1243,7 +1256,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -1267,6 +1280,7 @@
 }
 
 .Johann_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -1354,7 +1368,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -1378,6 +1392,7 @@
 }
 
 .Joss_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -1464,7 +1479,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -1488,6 +1503,7 @@
 }
 
 .Julien_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -1575,7 +1591,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -1599,6 +1615,7 @@
 }
 
 .Virginie_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -1686,7 +1703,7 @@
     position: fixed;
     height: 35rem;
     width: 70rem;
-    background-color: #F76C6C;
+    background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -1710,6 +1727,7 @@
 }
 
 .Alexandre_description {
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
