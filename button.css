@@ -6,7 +6,8 @@
 .btn-primary {
   display: flex;
   cursor: pointer;
-  background-color: #e28a8a;
+  color: #ffffff;
+  background-color: #F74187;
   border-radius: 9.5px;
   padding: 0.5rem;
   margin: 1rem;
