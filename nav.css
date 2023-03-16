@@ -21,6 +21,98 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+nav ul li a:before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #F74187;
+    transform: scaleX(0);
+    transition: transform 0.3s linear;
+}
+
+nav ul li a:hover:before {
+    transform: scaleX(1);
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        height: auto;
+        padding: 0;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        padding: 1px;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    nav ul li a {
+        border-radius: 0;
+    }
+
+}
+
+
+
+
+
+/** {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #333;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -90,4 +182,4 @@ nav ul li a:hover {
     nav ul li a:before {
         display: none;
     }
-}
+}*/
