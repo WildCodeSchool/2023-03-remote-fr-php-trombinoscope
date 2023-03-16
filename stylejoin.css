@@ -167,6 +167,8 @@ select {
 
 
 footer {
+
+    margin: 0;
     border: solid;
     border-color: black;
     height: 3rem;
@@ -202,6 +204,7 @@ div img {
 
 .btn-primary {
     cursor: pointer;
+
     width: 4.25rem;
     height: 1.25rem;
     background-color: #F74187;
@@ -218,16 +221,18 @@ div img {
 
 @media screen and (min-width: 1024px) {
     footer {
-        position: absolute;
-        bottom: -50%;
+        position: relative;
+        bottom: -132%;
         width: 100%;
     }
 
     .btn-primary {
+
         position: absolute;
         bottom: -42%;
         width: 4.688rem;
         height: 1.375rem;
+
     }
 
     form {
