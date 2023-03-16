@@ -163,6 +163,8 @@ select {
 
 
 footer {
+
+    margin: 0;
     border: solid;
     border-color: black;
     height: 3rem;
@@ -198,7 +200,7 @@ div img {
 .btn-primary {
     cursor: pointer;
     width: 68px;
-    height: 20px;
+    height: 26px;
     background-color: #F74187;
     color: white;
     border-style: none;
@@ -206,23 +208,25 @@ div img {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    position: absolute;
-    right: 20px;
-    bottom: -465px;
+    position: relative;
+    right: 0px;
+    bottom: -780%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 @media screen and (min-width: 1024px) {
     footer {
-        position: absolute;
-        bottom: -50%;
+        position: relative;
+        bottom: -132%;
         width: 100%;
     }
 
     .btn-primary {
-        position: absolute;
-        bottom: -42%;
-        width: 75px;
-        height: 22px;
+        position: relative;
+        right: 20px;
+        bottom: -125%;
+        margin-bottom: 1rem;
     }
 
     form {

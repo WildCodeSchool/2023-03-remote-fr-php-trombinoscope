@@ -22,10 +22,12 @@
 }
 
 @media screen and (min-width: 1024px) {
+
   .btn-primary {
     position: relative;
     right: 20px;
     bottom: -125%;
+    margin-bottom: 1rem;
   }
 
 }

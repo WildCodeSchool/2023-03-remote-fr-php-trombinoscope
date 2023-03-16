@@ -69,7 +69,6 @@
     /* adjust styles for small screens */
     .JF_popup {
         height: auto;
-        width: 90%;
         max-width: none;
         grid-template-columns: repeat(2, 1fr);
         padding: 2rem;
@@ -132,6 +131,7 @@
 }
 
 .Wilder_popup {
+
     position: fixed;
     height: 35rem;
     width: 70rem;
@@ -182,7 +182,6 @@
     /* adjust styles for small screens */
     .Wilder_popup {
         height: auto;
-        width: 90%;
         max-width: none;
         grid-template-columns: repeat(2, 1fr);
         padding: 2rem;
