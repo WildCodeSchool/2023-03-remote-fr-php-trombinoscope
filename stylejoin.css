@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -54,12 +58,46 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+    nav {
+        height: auto;
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        border-radius: 0;
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li a:before {
+        display: none;
+    }
+}
+
 main {
-    display:flex;
+    display: flex;
     align-items: center;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
-    margin:70px;
+    margin: 70px;
 }
 
 h1 {
@@ -82,8 +120,8 @@ body {
 }
 
 input {
-    padding:8px;
-    vertical-align:middle;
+    padding: 8px;
+    vertical-align: middle;
     margin: 0px;
     display: inline-block;
     background-color: #D9D9D9;
@@ -92,15 +130,15 @@ input {
 }
 
 label {
-    padding:3px 0px;
+    padding: 3px 0px;
     display: inline-block;
     vertical-align: middle;
 }
 
 .cases {
     display: flex;
-flex-direction: column;
-margin-top: 10px;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 button {
@@ -108,7 +146,7 @@ button {
     height: 21px;
     float: right;
     background-color: #F76C6C;
-    color:white;
+    color: white;
     border-style: none;
     border-radius: 20px;
     text-align: center;
@@ -124,11 +162,11 @@ select {
 }
 
 
-footer{
+footer {
     border: solid;
     border-color: black;
-   height: 3rem;
-    background-color:#C2C2C2;
+    height: 3rem;
+    background-color: #C2C2C2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,12 +174,12 @@ footer{
 }
 
 #message {
-background-color:#D9D9D9;
-font-style: italic;
-border-style: none;
-border-radius: 20px;
-width: 300px;
-height: 98px;
+    background-color: #D9D9D9;
+    font-style: italic;
+    border-style: none;
+    border-radius: 20px;
+    width: 300px;
+    height: 98px;
 }
 
 div img {
@@ -152,24 +190,25 @@ div img {
 
 .link {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
+
 /* div pour image conflit avec choix */
 
-.btn-primary{
+.btn-primary {
     cursor: pointer;
     width: 68px;
     height: 20px;
     background-color: #F76C6C;
-    color:white;
+    color: white;
     border-style: none;
     border-radius: 20px;
- text-align: center;
- text-decoration: none;
- font-weight: bold;
- position: absolute;
- right: 20px;
- bottom: -465px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    bottom: -465px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -178,8 +217,9 @@ div img {
         bottom: -50%;
         width: 100%;
     }
-    .btn-primary{
-        position:absolute;
-        bottom:-42%;
+
+    .btn-primary {
+        position: absolute;
+        bottom: -42%;
     }
 }
