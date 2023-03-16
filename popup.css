@@ -27,8 +27,8 @@
 }
 
 .JFDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -64,6 +64,57 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .JF_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .JFDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .JF_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .JF_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .JFDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .JF_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+
+
 
 
 .Alexis_container {
@@ -95,8 +146,8 @@
 }
 
 .AlexisDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -127,6 +178,56 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Alexis_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .AlexisDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Alexis_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Alexis_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .AlexisDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Alexis_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+
 .Arthur_container {
     position: fixed;
     top: 0;
@@ -156,8 +257,8 @@
 }
 
 .ArthurDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -188,6 +289,57 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Arthur_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .ArthurDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Arthur_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Arthur_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .ArthurDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Arthur_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+
+
 .Laurent_container {
     position: fixed;
     top: 0;
@@ -217,8 +369,8 @@
 }
 
 .LaurentDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -250,6 +402,57 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Laurent_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .LaurentDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Laurent_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Laurent_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .LaurentDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Laurent_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+
+
 .NinaS_container {
     position: fixed;
     top: 0;
@@ -279,8 +482,8 @@
 }
 
 .NinaSDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -312,6 +515,57 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .NinaS_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .NinaSDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .NinaS_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .NinaS_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .NinaSDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .NinaS_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+
+
 .Titouan_container {
     position: fixed;
     top: 0;
@@ -341,8 +595,8 @@
 }
 
 .TitouanDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -374,6 +628,57 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Titouan_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .TitouanDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Titouan_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Titouan_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .TitouanDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Titouan_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+
+
 .Valentin_container {
     position: fixed;
     top: 0;
@@ -403,8 +708,8 @@
 }
 
 .ValentinDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -436,6 +741,56 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Valentin_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .ValentinDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Valentin_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Valentin_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .ValentinDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Valentin_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+
 .VictoriaG_container {
     position: fixed;
     top: 0;
@@ -465,8 +820,8 @@
 }
 
 .VictoriaGDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -498,6 +853,55 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .VictoriaG_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .VictoriaGDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .VictoriaG_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .VictoriaG_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .VictoriaGDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .VictoriaG_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
 .VincentR_container {
     position: fixed;
     top: 0;
@@ -527,8 +931,8 @@
 }
 
 .VincentRDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -560,6 +964,56 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .VincentR_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .VincentRDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .VincentR_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .VincentR_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .VincentRDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .VincentR_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+
 .Baptiste_container {
     position: fixed;
     top: 0;
@@ -589,8 +1043,8 @@
 }
 
 .BaptisteDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -622,6 +1076,55 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Baptiste_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .BaptisteDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Baptiste_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Baptiste_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .BaptisteDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Baptiste_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
 .Brian_container {
     position: fixed;
     top: 0;
@@ -651,8 +1154,8 @@
 }
 
 .BrianDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -684,6 +1187,55 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Brian_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .BrianDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Brian_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Brian_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .BrianDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Brian_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
 .Johann_container {
     position: fixed;
     top: 0;
@@ -713,8 +1265,8 @@
 }
 
 .JohannDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -744,6 +1296,55 @@
         opacity: 1;
         transform: translateY(0rem);
     }
+}
+
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Johann_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .JohannDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Johann_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Johann_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .JohannDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Johann_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
 }
 
 
@@ -776,8 +1377,8 @@
 }
 
 .JossDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -809,6 +1410,54 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Joss_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .JossDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Joss_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Joss_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .JossDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Joss_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
 
 .Julien_container {
     position: fixed;
@@ -839,8 +1488,8 @@
 }
 
 .JulienDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -870,6 +1519,55 @@
         opacity: 1;
         transform: translateY(0rem);
     }
+}
+
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Julien_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .JulienDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Julien_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Julien_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .JulienDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Julien_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
 }
 
 
@@ -902,8 +1600,8 @@
 }
 
 .VirginieDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -933,6 +1631,55 @@
         opacity: 1;
         transform: translateY(0rem);
     }
+}
+
+@media only screen and (min-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .virginie_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+
+    .VirginieDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Virginie_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    /* adjust styles for small screens */
+    .Virginie_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .VirginieDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
+    }
+
+    .Virginie_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
 }
 
 
@@ -965,8 +1712,8 @@
 }
 
 .AlexandreDansPopup {
-    height: 30rem;
-    width: 30rem;
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
 }
 
@@ -998,131 +1745,51 @@
     }
 }
 
+@media only screen and (min-width: 1170px) {
 
-
-
-.Alexis_container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.Alexis_container.active {
-    display: flex;
-}
-
-.Alexis_popup {
-    position: fixed;
-    height: 35rem;
-    width: 70rem;
-    background-color: #F74187;
-    border-radius: 1rem;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    animation: animationA 1s linear .2s backwards;
-}
-
-.AlexisDansPopup {
-    height: 30rem;
-    width: 30rem;
-    position: relative;
-}
-
-.titreAlexis {
-    font-size: 4rem;
-    text-align: center;
-}
-
-.petitTitreAlexis {
-    font-size: 2rem;
-}
-
-.Alexis_description {
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-@keyframes animationA {
-    0% {
-        opacity: 0;
-        transform: translateY(-1rem);
+    /* adjust styles for small screens */
+    .Alexandre_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
     }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0rem);
+    .AlexandreDansPopup {
+        min-height: 30rem;
+        min-width: 30rem;
+        position: relative;
+    }
+
+    .Alexandre_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 }
 
+@media only screen and (max-width: 1170px) {
 
-
-.Arthur_container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.Arthur_container.active {
-    display: flex;
-}
-
-.Arthur_popup {
-    position: fixed;
-    height: 35rem;
-    width: 70rem;
-    background-color: #F74187;
-    border-radius: 1rem;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    animation: animationA 1s linear .2s backwards;
-}
-
-.ArthurDansPopup {
-    height: 30rem;
-    width: 30rem;
-    position: relative;
-}
-
-.titreArthur {
-    font-size: 4rem;
-    text-align: center;
-}
-
-.petitTitreArthur {
-    font-size: 2rem;
-}
-
-.Arthur_description {
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-@keyframes animationA {
-    0% {
-        opacity: 0;
-        transform: translateY(-1rem);
+    /* adjust styles for small screens */
+    .Alexandre_popup {
+        height: auto;
+        width: 90%;
+        max-width: none;
+        grid-template-columns: 1fr;
+        padding: 2rem;
     }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0rem);
+    .AlexandreDansPopup {
+        max-height: auto;
+        max-width: 30rem;
+        position: relative;
     }
+
+    .Alexandre_description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
 }
