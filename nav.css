@@ -59,6 +59,35 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul.active {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     nav ul {
