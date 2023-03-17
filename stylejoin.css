@@ -122,7 +122,7 @@ input {
 }
 
 label {
-    padding: 0.188rem 0;
+    /*padding: 0.188rem 0;*/
     display: inline-block;
     vertical-align: middle;
 }
@@ -208,9 +208,9 @@ div img {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    position: relative;
+    position: static;
     right: 1.25rem;
-    bottom: -29.063rem;
+    bottom: 10%;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
