@@ -87,7 +87,7 @@ main {
     align-items: center;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
-    margin: 70px;
+    margin: 4.375rem;
 }
 
 h1 {
@@ -103,6 +103,7 @@ h1 {
 
 body {
     margin: 0;
+    height: 100%;
 
 }
 
@@ -191,6 +192,10 @@ div img {
 }
 
 /* div pour image conflit avec choix */
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .btn-primary {
     cursor: pointer;
@@ -203,7 +208,7 @@ div img {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    position: absolute;
+    position: relative;
     right: 1.25rem;
     bottom: -29.063rem;
     font-family: 'Raleway', sans-serif;
@@ -220,8 +225,8 @@ div img {
 
     .btn-primary {
 
-        position: absolute;
-        bottom: -42%;
+        position: fixed;
+        bottom: 10%;
         width: 4.688rem;
         height: 1.375rem;
 
