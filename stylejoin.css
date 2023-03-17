@@ -62,7 +62,7 @@ nav ul li a:hover {
 @media screen and (max-width: 768px) {
     nav {
         height: auto;
-
+        padding: 1rem;
     }
 
     nav ul {
