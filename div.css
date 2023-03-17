@@ -16,11 +16,17 @@
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+ }
+
+ @media screen and (min-width: 975px) {
+    .galerie {
+       justify-content: space-between;
+    }
  }
 
  .galerie img {
-    margin: 1.5rem;
+    margin: 2rem;
     padding: .5rem;
     height: 15rem;
     width: 15rem;
