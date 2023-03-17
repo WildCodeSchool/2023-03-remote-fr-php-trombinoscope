@@ -1,380 +1,493 @@
 <!DOCTYPE html>
 <html lang="Fr">
-
-<head>
-
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
     <!-- POLICE LINK RALEWAY (text) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, inial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, inial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
+    <title>l' équipe PHP</title>
+  </head>
+  <body>
+    <nav>
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul>
+        <li><a href="Page1.html">A propos de nous</a></li>
 
+        <li><a href="php.html">L'équipe PHP</a></li>
+        <li><a href="Rejoins-nous.html">Nous contacter</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Team PHP</h1>
+    </header>
 
-  <title>l' équipe PHP</title>
-</head>
-
-<nav>
-  <ul>
-
-    
-    <li><a href="Page1.html">A propos de nous</a></li>
-
-    <li><a href="php.html">L'équipe PHP</a></li>
-    <li><a href="Rejoins-nous.html">Nous contacter</a></li>
-  </ul>
-</nav>
-<header>
-  <h1>Team PHP</h1>
-</header>
-
-<div>
-  <img class="JF" src="/images/JF.jpg" alt="formateur" />
-</div>
-<div class="JF_container">
-
-  <section class="JF_popup">
     <div>
-      <img class="JFDansPopup" src="/images/JF.jpg" alt="formateur" />
+      <img class="JF" src="/images/JF.jpg" alt="formateur" />
     </div>
-    <div class="JF_description">
-      <p class="titreJF">Jean-François MORIN</p>
-      <p class="petitTitreJF">Le formateur !</p>
-      <p class="emailJF">Email : JFMorin@gmail.com</p>
-      <p>Plus de 20 ans d'expérience ! </p>
-      <p><a href="#">https://fr.linkedin.com/</a></p>
+    <div class="JF_container">
+      <section class="JF_popup">
+        <button class="nav-button prev-button">&lt;</button>
+        <button class="nav-button next-button">&gt;</button>
+        <div>
+          <img class="JFDansPopup" src="/images/JF.jpg" alt="formateur" />
+        </div>
+        <div class="JF_description">
+          <p class="titreJF">Jean-François MORIN</p>
+          <p class="petitTitreJF">Le formateur !</p>
+          <p class="emailJF">Email : JFMorin@gmail.com</p>
+          <p>Plus de 20 ans d'expérience !</p>
+          <p><a href="#">https://fr.linkedin.com/</a></p>
+        </div>
+      </section>
     </div>
-  </section>
-</div>
 
-
-
-<div class="galerie">
-
-<div>
-    <img class="Wilder" src="/images/BrianV.jpg" alt="étudiant" />
-  </div>
-  <div class="Wilder_container">
-  
-    <section class="Wilder_popup">
+    <div class="galerie">
       <div>
-        <img class="WilderDansPopup" src="/images/BrianV.jpg" alt="étudiant" />
+        <img class="Wilder" src="/images/BrianV.jpg" alt="étudiant" />
       </div>
-      <div class="Wilder_description">
-        <p class="titreWilder">Brian VENTURA</p>
-        <p class="petitTitreWilder">Chieur de compètttt</p>
-        <p class="emailWilder">Email : brian.ventura@gmail.com</p>
-        <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-          quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-          Illum.</p>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/BrianV.jpg"
+              alt="étudiant"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Brian VENTURA</p>
+            <p class="petitTitreWilder">Chieur de compètttt</p>
+            <p class="emailWilder">Email : brian.ventura@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
 
-  <div>
-    <img class="Wilder" src="/images/JohannG.jpg" alt="étudiant" />
-  </div>
-  <div class="Wilder_container">
-  
-    <section class="Wilder_popup">
       <div>
-        <img class="WilderDansPopup" src="/images/JohannG.jpg" alt="étudiant" />
+        <img class="Wilder" src="/images/JohannG.jpg" alt="étudiant" />
       </div>
-      <div class="Wilder_description">
-        <p class="titreWilder">Johann G</p>
-        <p class="petitTitreWilder">L'ennemi de la SNCF !</p>
-        <p class="emailWilder">Email : johann.g@gmail.com</p>
-        <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-          quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-          Illum.</p>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/JohannG.jpg"
+              alt="étudiant"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Johann G</p>
+            <p class="petitTitreWilder">L'ennemi de la SNCF !</p>
+            <p class="emailWilder">Email : johann.g@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
-  
-  <div>
-    <img class="Wilder" src="/images/JossL.jpg" alt="étudiant" />
-  </div>
-  <div class="Wilder_container">
-  
-    <section class="Wilder_popup">
+
       <div>
-        <img class="WilderDansPopup" src="/images/JossL.jpg" alt="étudiant" />
+        <img class="Wilder" src="/images/JossL.jpg" alt="étudiant" />
       </div>
-      <div class="Wilder_description">
-        <p class="titreWilder">Joss LENOIR</p>
-        <p class="petitTitreWilder"> Le surfer fêtard !</p>
-        <p class="emailWilder">Email : joss.lenoir@gmail.com</p>
-        <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-          quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-          Illum.</p>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/JossL.jpg"
+              alt="étudiant"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Joss LENOIR</p>
+            <p class="petitTitreWilder">Le surfer fêtard !</p>
+            <p class="emailWilder">Email : joss.lenoir@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
 
-  <div>
-    <img class="Wilder" src="/images/BaptisteC.jpg" alt="étudiant" />
-  </div>
-  <div class="Wilder_container">
-  
-    <section class="Wilder_popup">
       <div>
-        <img class="WilderDansPopup" src="/images/BaptisteC.jpg" alt="étudiant" />
+        <img class="Wilder" src="/images/BaptisteC.jpg" alt="étudiant" />
       </div>
-      <div class="Wilder_description">
-        <p class="titreWilder">Baptiste CHASSET</p>
-        <p class="petitTitreWilder"> Le non fibré...</p>
-        <p class="emailWilder">Email : baptiste.chasset@gmail.com</p>
-        <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-          quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-          Illum.</p>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/BaptisteC.jpg"
+              alt="étudiant"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Baptiste CHASSET</p>
+            <p class="petitTitreWilder">Le non fibré...</p>
+            <p class="emailWilder">Email : baptiste.chasset@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
 
-  <div>
-    <img class="Wilder" src="/images/JulienL.jpg" alt="étudiant" />
-  </div>
-  <div class="Wilder_container">
-  
-    <section class="Wilder_popup">
       <div>
-        <img class="WilderDansPopup" src="/images/JulienL.jpg" alt="étudiant" />
+        <img class="Wilder" src="/images/JulienL.jpg" alt="étudiant" />
       </div>
-      <div class="Wilder_description">
-        <p class="titreWilder">Julien LISS</p>
-        <p class="petitTitreWilder">le ch'ti</p>
-        <p class="emailWilder">Email : Julien.Liss@gmail.com</p>
-        <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-          quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-          Illum.</p>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/JulienL.jpg"
+              alt="étudiant"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Julien LISS</p>
+            <p class="petitTitreWilder">le ch'ti</p>
+            <p class="emailWilder">Email : Julien.Liss@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
-   
 
-  <div>
-    <img class="Wilder" src="/images/VirginieL.jpg" alt="étudiant" />
-  </div>
-  <div class="Wilder_container">
-  
-    <section class="Wilder_popup">
       <div>
-        <img class="WilderDansPopup" src="/images/VirginieL.jpg" alt="étudiant" />
+        <img class="Wilder" src="/images/VirginieL.jpg" alt="étudiant" />
       </div>
-      <div class="Wilder_description">
-        <p class="titreWilder">Virginie LEBLEU</p>
-        <p class="petitTitreWilder">L'amoureuse du PHP!</p>
-        <p class="emailWilder">Email : virginie.lebleu@gmail.com</p>
-        <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-          quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-          Illum.</p>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/VirginieL.jpg"
+              alt="étudiant"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Virginie LEBLEU</p>
+            <p class="petitTitreWilder">L'amoureuse du PHP!</p>
+            <p class="emailWilder">Email : virginie.lebleu@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
 
-<!--Laurent -->
-<div>
-  <img class="Wilder" src="/images/Laurent.jpg" alt="élève" />
-</div>
-<div class="Wilder_container">
-
-  <section class="Wilder_popup">
-    <div>
-      <img class="WilderDansPopup" src="/images/Laurent.jpg" alt="élève" />
-    </div>
-    <div class="Wilder_description">
-      <p class="titreWilder">Laurent MONTMAYEUR</p>
-      <p class="petitTitreWilder">Le méchant viking</p>
-      <p class="emailWilder">Email : Laurent@gmail.com</p>
-      <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-        quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-        Illum.</p>
-    </div>
-  </section>
-</div>
-
-<div>
-  <img class="Wilder" src="/images/NinaS.jpg" alt="élève" />
-</div>
-<div class="Wilder_container">
-
-  <section class="Wilder_popup">
-    <div>
-      <img class="WilderDansPopup" src="/images/NinaS.jpg" alt="élève" />
-    </div>
-    <div class="Wilder_description">
-      <p class="titreWilder">Nina SCHADEL</p>
-      <p class="petitTitreWilder">La râleuse pro</p>
-      <p class="emailWilder">Email : NinaSchadel@gmail.com</p>
-      <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-        quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-        Illum.</p>
-    </div>
-  </section>
-</div>
-
-<div>
-  <img class="Wilder" src="/images/Titouan.jpg" alt="élève" />
-</div>
-<div class="Wilder_container">
-
-  <section class="Wilder_popup">
-    <div>
-      <img class="WilderDansPopup" src="/images/Titouan.jpg" alt="élève" />
-    </div>
-    <div class="Wilder_description">
-      <p class="titreWilder">Titouan Lahely</p>
-      <p class="petitTitreWilder">La bête, l'homme aux bras d'acier</p>
-      <p class="emailWilder">Email : Titouan@gmail.com</p>
-      <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-        quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-        Illum.</p>
-    </div>
-  </section>
-</div>
-
-<div>
-  <img class="Wilder" src="/images/Valentin.jpg" alt="élève" />
-</div>
-<div class="Wilder_container">
-
-  <section class="Wilder_popup">
-    <div>
-      <img class="WilderDansPopup" src="/images/Valentin.jpg" alt="élève" />
-    </div>
-    <div class="Wilder_description">
-      <p class="titreWilder">Valentin Philippeau</p>
-      <p class="petitTitreWilder">L'homme discret</p>
-      <p class="emailWilder">Email : Valentin@gmail.com</p>
-      <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-        quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-        Illum.</p>
-    </div>
-  </section>
-</div>
-
-<div>
-  <img class="Wilder" src="/images/VictoriaG.jpg" alt="élève" />
-</div>
-<div class="Wilder_container">
-
-  <section class="Wilder_popup">
-    <div>
-      <img class="WilderDansPopup" src="/images/VictoriaG.jpg" alt="élèves" />
-    </div>
-    <div class="Wilder_description">
-      <p class="titreWilder">Victoria Gambier</p>
-      <p class="petitTitreWilder">La Ch'ti</p>
-      <p class="emailWilder">Email : VictoriaG@gmail.com</p>
-      <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-        quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-        Illum.</p>
-    </div>
-  </section>
-</div>
-
-
-<div>
-    <img class="Wilder" src="/images/AlexandreP.jpg" alt="étudiant" />
-  </div>
-  <div class="Wilder_container">
-  
-    <section class="Wilder_popup">
+      <!--Laurent -->
       <div>
-        <img class="WilderDansPopup" src="/images/AlexandreP.jpg" alt="étudiant" />
+        <img class="Wilder" src="/images/Laurent.jpg" alt="élève" />
       </div>
-      <div class="Wilder_description">
-        <p class="titreWilder">Alexandre PAUQUIN</p>
-        <p class="petitTitreWilder">Qu'est-ce qu'il fait là ? Il sait déjà tout !</p>
-        <p class="emailWilder">Email : alexandrepauquin@gmail.com</p>
-        <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-          quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-          Illum.</p>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/Laurent.jpg"
+              alt="élève"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Laurent MONTMAYEUR</p>
+            <p class="petitTitreWilder">Le méchant viking</p>
+            <p class="emailWilder">Email : Laurent@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
 
-  <div>
-    <img class="Wilder" src="/images/AlexisM.jpg" alt="étudiant" />
-  </div>
-  <div class="Wilder_container">
-  
-    <section class="Wilder_popup">
       <div>
-        <img class="WilderDansPopup" src="/images/AlexisM.jpg" alt="étudiant" />
+        <img class="Wilder" src="/images/NinaS.jpg" alt="élève" />
       </div>
-      <div class="Wilder_description">
-        <p class="titreWilder">Alexis MICHELAS</p>
-        <p class="petitTitreWilder">Le futur papa !</p>
-        <p class="emailWilder">Email : alexismichelas@gmail.com</p>
-        <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-          quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-          Illum.</p>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img class="WilderDansPopup" src="/images/NinaS.jpg" alt="élève" />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Nina SCHADEL</p>
+            <p class="petitTitreWilder">La râleuse pro</p>
+            <p class="emailWilder">Email : NinaSchadel@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
 
-
-  <div>
-    <img class="Wilder" src="/images/Arthur.png" alt="étudiant" />
-  </div>
-  <div class="Wilder_container">
-  
-    <section class="Wilder_popup">
       <div>
-        <img class="WilderDansPopup" src="/images/Arthur.png" alt="étudiant" />
+        <img class="Wilder" src="/images/Titouan.jpg" alt="élève" />
       </div>
-      <div class="Wilder_description">
-        <p class="titreWilder">Arthur GAYCHET</p>
-        <p class="petitTitreWilder">Le benjamin !</p>
-        <p class="emailWilder">Email : arthurg@gmail.com</p>
-        <p><b>Description</b> :  ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-          quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-          Illum.</p>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/Titouan.jpg"
+              alt="élève"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Titouan Lahely</p>
+            <p class="petitTitreWilder">La bête, l'homme aux bras d'acier</p>
+            <p class="emailWilder">Email : Titouan@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
 
+      <div>
+        <img class="Wilder" src="/images/Valentin.jpg" alt="élève" />
+      </div>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/Valentin.jpg"
+              alt="élève"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Valentin Philippeau</p>
+            <p class="petitTitreWilder">L'homme discret</p>
+            <p class="emailWilder">Email : Valentin@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
+      </div>
 
-<div>
- <img class="Wilder" src="/images/VincentR.jpg" alt="élève" />
-</div>
-<div class="Wilder_container">
+      <div>
+        <img class="Wilder" src="/images/VictoriaG.jpg" alt="élève" />
+      </div>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/VictoriaG.jpg"
+              alt="élèves"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Victoria Gambier</p>
+            <p class="petitTitreWilder">La Ch'ti</p>
+            <p class="emailWilder">Email : VictoriaG@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
+      </div>
 
-  <section class="Wilder_popup">
-    <div>
-      <img class="WilderDansPopup" src="/images/VincentR.jpg" alt="élèves" />
+      <div>
+        <img class="Wilder" src="/images/AlexandreP.jpg" alt="étudiant" />
+      </div>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/AlexandreP.jpg"
+              alt="étudiant"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Alexandre PAUQUIN</p>
+            <p class="petitTitreWilder">
+              Qu'est-ce qu'il fait là ? Il sait déjà tout !
+            </p>
+            <p class="emailWilder">Email : alexandrepauquin@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div>
+        <img class="Wilder" src="/images/AlexisM.jpg" alt="étudiant" />
+      </div>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/AlexisM.jpg"
+              alt="étudiant"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Alexis MICHELAS</p>
+            <p class="petitTitreWilder">Le futur papa !</p>
+            <p class="emailWilder">Email : alexismichelas@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div>
+        <img class="Wilder" src="/images/Arthur.png" alt="étudiant" />
+      </div>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/Arthur.png"
+              alt="étudiant"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Arthur GAYCHET</p>
+            <p class="petitTitreWilder">Le benjamin !</p>
+            <p class="emailWilder">Email : arthurg@gmail.com</p>
+            <p>
+              <b>Description</b> : ipsum dolor, sit amet consectetur adipisicing
+              elit. Recusandae natus voluptatem quaerat nemo illo sit, voluptate
+              minima enim tempore distinctio sapiente ullam porro optio cum a
+              quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div>
+        <img class="Wilder" src="/images/VincentR.jpg" alt="élève" />
+      </div>
+      <div class="Wilder_container">
+        <section class="Wilder_popup">
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+          <div>
+            <img
+              class="WilderDansPopup"
+              src="/images/VincentR.jpg"
+              alt="élèves"
+            />
+          </div>
+          <div class="Wilder_description">
+            <p class="titreWilder">Vincent Ravanel</p>
+            <p class="petitTitreWilder">Vincent R</p>
+            <p class="emailWilder">Email : VincentR@gmail.com</p>
+            <p>
+              <b>Description</b> : Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Recusandae natus voluptatem quaerat nemo illo
+              sit, voluptate minima enim tempore distinctio sapiente ullam porro
+              optio cum a quas animi sed. Illum.
+            </p>
+          </div>
+        </section>
+      </div>
     </div>
-    <div class="Wilder_description">
-      <p class="titreWilder">Vincent Ravanel</p>
-      <p class="petitTitreWilder">Vincent R</p>
-      <p class="emailWilder">Email : VincentR@gmail.com</p>
-      <p><b>Description</b> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus voluptatem
-        quaerat nemo illo sit, voluptate minima enim tempore distinctio sapiente ullam porro optio cum a quas animi sed.
-        Illum.</p>
+    <div class="button">
+      <a href="#" class="btn btn-primary">Haut ↑</a>
     </div>
-  </section>
-</div>
-</div>
-<div class="button">
-  <a href="#" class=" btn btn-primary">Haut ↑</a>
-</div>
 
+    <footer>Copyright © 2023 TEAMPHP, Inc.</footer>
 
-<footer>Copyright © 2023 TEAMPHP, Inc.</footer>
-
-
-
-
-<script src="popupscript.js"></script>
-</body>
-
-
+    <script src="popupscript.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

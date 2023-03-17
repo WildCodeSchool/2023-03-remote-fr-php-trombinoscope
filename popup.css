@@ -8,6 +8,7 @@
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 9999;
 }
 
 .JF_container.active {
@@ -24,6 +25,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     animation: animationA 1s linear .2s backwards;
+    overflow-y: auto;
+    z-index: 10000;
 }
 
 .JFDansPopup {
@@ -92,7 +95,7 @@
     /* adjust styles for small screens */
     .JF_popup {
         height: auto;
-        width: 90%;
+        width: 50%;
         max-width: none;
         grid-template-columns: 1fr;
         padding: 2rem;
@@ -180,6 +183,32 @@
     }
 }
 
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 10001;
+    margin: 1rem;
+}
+
+.nav-button:hover {
+    opacity: 1;
+}
+
+.prev-button {
+    left: -1rem;
+}
+
+.next-button {
+    right: -1rem;
+}
+
 @media only screen and (min-width: 1170px) {
 
     /* adjust styles for small screens */
@@ -226,4 +255,33 @@
         gap: 2rem;
     }
 
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul.active {
+        display: block;
+    }
 }
