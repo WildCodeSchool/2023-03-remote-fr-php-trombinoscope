@@ -93,6 +93,55 @@ p {
     font-size: 12px;
 }
 
+
+.bienvenue {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    text-align: center;
+    z-index: 999;
+    animation: fadein 2s forwards;
+    opacity: 0;
+    color: rgba(255, 255, 255);
+    /* Ajoute une transparence au texte */
+    text-shadow: 4px 4px 5px rgba(117, 102, 115, 0.5);
+    /* Ajoute une ombre au texte */
+    transform: translateY(-100%);
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
 /* responsive tablette & écran */
 
 @media screen and (min-width: 1024px) {

@@ -48,12 +48,34 @@ button {
     border-radius: 10px;
 }
 
-/* Ajoutez les classes CSS pour le footer et le bouton haut */
-footer, .button-haut {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.vibrate {
+    animation: vibrate 0.3s linear;
+    animation-iteration-count: 3;
 }
+
+@keyframes vibrate {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
 
 select, textarea {
     margin: 20px 0px;
