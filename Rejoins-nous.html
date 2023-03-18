@@ -18,78 +18,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rejoins-nous</title>
+    <title>Contactez-nous</title>
     <link rel="stylesheet" href="stylejoin.css" />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="button.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="Page1.html">A propos de nous</a></li>
-        <li><a href="PHP.html">L'équipe PHP</a></li>
-        <li><a href="Rejoins-nous.html">Nous contacter</a></li>
-      </ul>
-    </nav>
-    <title>Formulaire d'inscription</title>
-    <link rel="stylesheet" type="text/css" href="stylejoin.css">
-  </head>
-  <body>
-    <div class="container">
-      <h1>Rejoins-nous</h1>
-      <form method="POST" action="traitement.php">
-        <label for="nom">Nom</label>
-        <input type="text" id="nom" name="nom" required>
-  
-        <label for="prenom">Prénom</label>
-        <input type="text" id="prenom" name="prenom" required>
-  
-        <label for="age">Âge</label>
-        <select id="age" name="age">
-          <option value="">--Choisissez votre âge--</option>
-          <option value="18-25">18-25</option>
-          <option value="26-35">26-35</option>
-          <option value="36-45">36-45</option>
-          <option value="46+">46+</option>
-        </select>
-  
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-  
-        <label for="telephone">Téléphone</label>
-        <input type="tel" id="telephone" name="telephone" required>
-  
-        <fieldset>
-          <legend>Formation souhaitée :</legend>
-          <div>
-            <input type="checkbox" id="dev-web" name="formation[]" value="Developpeur web">
-            <label for="dev-web">Développeur web</label>
-          </div>
-          <div>
-            <input type="checkbox" id="data" name="formation[]" value="Data">
-            <label for="data">Data</label>
-          </div>
-          <div>
-            <input type="checkbox" id="infra-cyb" name="formation[]" value="Infrastructure et cybersécurité">
-            <label for="infra-cyb">Infrastructure et cybersécurité</label>
-          </div>
-          <div>
-            <input type="checkbox" id="prod-design" name="formation[]" value="Product design">
-            <label for="prod-design">Product design</label>
-          </div>
-        </fieldset>
-  
-        <label for="description">Décris-toi</label>
-        <textarea id="description" name="description"></textarea>
-  
-        <button type="submit">Envoyer</button>
-      </form>
-    </div>
-    <div class="button">
-      <a href="#" class="btn btn-primary"> Haut ↑</a>
-    </div>
+    <header>
+      <nav>
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul>
+          <li><a href="Page1.html">A propos de nous</a></li>
+          <li><a href="PHP.html">L'équipe PHP</a></li>
+          <li><a href="Contactez-nous.html">Nous Contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <form>
+      <h1>Contactez-nous !</h1>
+      <input placeholder="Nom" type="text" />
+      <input placeholder="Prénom" type="text" />
+      <input placeholder="E-mail" type="text" />
+      <input placeholder="Téléphone" type="text" />
+      <select name="age" id="age">
+        <option value="" disabled selected>Age</option>
+        <!-- Ajouter les options d'âge ici -->
+        <option value="18">-18</option>
+        <option value="19">+18</option>
+      </select>
+      <textarea
+        placeholder="Posez vos questions"
+        rows="2"
+        class="dis-en-plus"
+      ></textarea>
+      <div class="button-container">
+        <button>Envoyer</button>
+      </div>
+    </form>
+
     <footer>Copyright © 2023 TEAMPHP, Inc.</footer>
-        <script src="script.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>

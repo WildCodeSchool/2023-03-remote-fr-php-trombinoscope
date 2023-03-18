@@ -6,7 +6,6 @@
 }
 
 
-
 /* image principale*/
 main>img {
     width: 80%;
@@ -32,15 +31,30 @@ h2 {
 
 
 .firsth2 {
-    width: 175px;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .secondh2 {
-    width: 140px;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .thirdh2 {
-    width: 270px;
+    display: flex;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
