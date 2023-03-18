@@ -64,6 +64,10 @@ nav ul li a:hover {
     cursor: pointer;
     background-color: transparent;
     border: none;
+    box-shadow: 2px 3px 5px #5e5c5d7d;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .hamburger span {
@@ -72,6 +76,7 @@ nav ul li a:hover {
     height: 3px;
     background-color: #ffffff;
     margin: 5px 0;
+
 }
 
 @media screen and (max-width: 768px) {
