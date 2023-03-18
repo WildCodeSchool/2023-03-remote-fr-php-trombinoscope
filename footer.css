@@ -8,12 +8,13 @@ footer {
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
+    width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
     footer {
         position: relative;
         bottom: -132%;
-        width: 100%;
+
     }
 }

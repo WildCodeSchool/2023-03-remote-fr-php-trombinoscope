@@ -32,90 +32,64 @@
         <li><a href="Rejoins-nous.html">Nous contacter</a></li>
       </ul>
     </nav>
-    <main>
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" type="text/css" href="stylejoin.css">
+  </head>
+  <body>
+    <div class="container">
       <h1>Rejoins-nous</h1>
-      <form>
-        <div class="cases">
-          <label for="Nom :">Nom :</label>
-          <input type="text" id="Nom :" />
-
-          <label for="Prenom :">Prénom :</label>
-          <input type="text" id="Prénom :" />
-
-          <label for="Age :">Age :</label>
-          <select name="Age">
-            <option value="">--Choisis ton age--</option>
-            <option value="-18 ans">- 18 ans</option>
-            <option value="+18 ans">+ 18 ans</option>
-          </select>
-
-          <label for="Email :">Email :</label>
-          <input type="email" id="Email" />
-
-          <label for="Téléphone :">Téléphone :</label>
-          <input type="tel" id="Téléphone" />
-
-          <br />
+      <form method="POST" action="traitement.php">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+  
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" required>
+  
+        <label for="age">Âge</label>
+        <select id="age" name="age">
+          <option value="">--Choisissez votre âge--</option>
+          <option value="18-25">18-25</option>
+          <option value="26-35">26-35</option>
+          <option value="36-45">36-45</option>
+          <option value="46+">46+</option>
+        </select>
+  
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="telephone">Téléphone</label>
+        <input type="tel" id="telephone" name="telephone" required>
+  
+        <fieldset>
           <legend>Formation souhaitée :</legend>
-          <br />
-          <div class="choix">
-            <input type="radio" name="Formation" value="Développement Web" />
-            <label for="Développement Web">Développement Web</label><br />
-
-            <input type="radio" name="Formation" value="Data" />
-            <label for="Data">Data</label><br />
-
-            <input
-              type="radio"
-              name="Formation"
-              value="Infrastructure et cybersécurité"
-            />
-            <label for="Infrastructure et cybersécurité"
-              >Infrastructure et cybersécurité</label
-            ><br />
-
-            <input type="radio" name="Formation" value="Product design" />
-            <label for="Product design">Product design</label><br />
+          <div>
+            <input type="checkbox" id="dev-web" name="formation[]" value="Developpeur web">
+            <label for="dev-web">Développeur web</label>
           </div>
-
-          <br /><label for="Decris toi et donne nous tes motivations :"
-            >Décris-toi et donne nous tes motivations :</label
-          >
-          <textarea id="message" rows="10"></textarea>
-        </div>
-
-        <br /><button type="Envoyer">Envoyer</button><br />
-
-        <br />
-        <p>Nos réseaux favoris !</p>
-
-        <div class="link">
-          <a href="https://www.facebook.com/"
-            ><img src="./img logos/Facebook.png" alt="Facebook"
-          /></a>
-          <a href="https://www.instagram.com/"
-            ><img src="./img logos/Instagram.png" alt="Instagram"
-          /></a>
-          <a href="https://twitter.com/"
-            ><img src="./img logos/Twitter.png" alt="Twitter"
-          /></a>
-          <a href="https://github.com/"
-            ><img src="./img logos/Github.png" alt="Github"
-          /></a>
-          <a href="https://fr.linkedin.com/"
-            ><img src="./img logos/Linkedin.png" alt="Linkedin"
-          /></a>
-          <a href="https://www.youtube.com/"
-            ><img src="./img logos/Youtube.png" alt="Youtube"
-          /></a>
-        </div>
-
-        <br />
-        <div class="button">
-          <a href="#" class="btn btn-primary"> Haut ↑</a>
-        </div>
+          <div>
+            <input type="checkbox" id="data" name="formation[]" value="Data">
+            <label for="data">Data</label>
+          </div>
+          <div>
+            <input type="checkbox" id="infra-cyb" name="formation[]" value="Infrastructure et cybersécurité">
+            <label for="infra-cyb">Infrastructure et cybersécurité</label>
+          </div>
+          <div>
+            <input type="checkbox" id="prod-design" name="formation[]" value="Product design">
+            <label for="prod-design">Product design</label>
+          </div>
+        </fieldset>
+  
+        <label for="description">Décris-toi</label>
+        <textarea id="description" name="description"></textarea>
+  
+        <button type="submit">Envoyer</button>
       </form>
-    </main>
+    </div>
+    <div class="button">
+      <a href="#" class="btn btn-primary"> Haut ↑</a>
+    </div>
     <footer>Copyright © 2023 TEAMPHP, Inc.</footer>
+        <script src="script.js"></script>
   </body>
 </html>
