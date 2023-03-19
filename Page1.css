@@ -62,13 +62,13 @@ h2 {
 
 div img {
     margin: auto;
-    width: 42px;
-    height: 42px;
+    width: 35px;
+    height: 35px;
 }
 
 div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 p {
@@ -106,19 +106,22 @@ p {
     font-size: 10vw;
     text-align: center;
     z-index: 999;
-    animation: fadein 2s forwards;
-    opacity: 0;
     color: rgba(255, 255, 255);
     /* Ajoute une transparence au texte */
     text-shadow: 4px 4px 5px rgba(117, 102, 115, 0.5);
     /* Ajoute une ombre au texte */
-    transform: translateY(-100%);
+}
+
+.bienvenue span {
+    display: inline-block;
+    opacity: 0;
+    animation: fadein 2s forwards;
 }
 
 @keyframes fadein {
     0% {
         opacity: 0;
-        transform: translateY(-100%);
+        transform: translateY(var(--start-position, -100%));
     }
 
     20% {
