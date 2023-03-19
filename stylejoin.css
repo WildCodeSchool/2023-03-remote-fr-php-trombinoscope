@@ -99,3 +99,24 @@ textarea.dis-en-plus {
     width: 100%;
     margin-top: 20px;
 }
+
+div img {
+    margin: auto;
+    width: 42px;
+    height: 42px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    margin: 2rem;
+}
+
+.p1 {
+    padding-top: 2rem;
+
+}
