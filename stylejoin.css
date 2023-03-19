@@ -19,7 +19,7 @@ form {
 }
 
 h1 {
-    height: 40px;
+    height: 55px;
     width: 350px;
     font-size: 20px;
     background-color: #F74187;
@@ -100,23 +100,45 @@ textarea.dis-en-plus {
     margin-top: 20px;
 }
 
+.reseaux {
+    margin: 1rem;
+    padding: 1rem;
+}
+
 div img {
     margin: auto;
-    width: 42px;
-    height: 42px;
+    width: 35px;
+    height: 35px;
+
 }
 
 div {
     display: flex;
-    justify-content: space-around;
+
+    justify-content: space-between;
 }
 
-p {
-    font-family: 'Raleway', sans-serif;
-    margin: 2rem;
+.Nos {
+    margin: 1rem;
+    padding: 1rem;
 }
 
-.p1 {
-    padding-top: 2rem;
+@media screen and (min-width: 1024px) {
+
+    main>img {
+        width: 100%
+    }
+
+    main>img {
+        width: 100%
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    main>img {
+        width: 100%;
+        object-fit: cover;
+    }
 
 }

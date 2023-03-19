@@ -62,13 +62,13 @@ h2 {
 
 div img {
     margin: auto;
-    width: 42px;
-    height: 42px;
+    width: 35px;
+    height: 35px;
 }
 
 div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 p {
