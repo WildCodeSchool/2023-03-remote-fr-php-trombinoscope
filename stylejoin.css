@@ -109,10 +109,12 @@ div img {
     margin: auto;
     width: 35px;
     height: 35px;
+
 }
 
 div {
     display: flex;
+
     justify-content: space-between;
 }
 
@@ -138,4 +140,5 @@ div {
         width: 100%;
         object-fit: cover;
     }
+
 }
