@@ -137,6 +137,7 @@
     .JFDansPopup {
         max-width: 100%;
         max-height: none;
+        position: relative;
     }
 
     .titreJF {

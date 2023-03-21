@@ -5,8 +5,7 @@
 
 .btn-primary {
   cursor: pointer;
-  width: 68px;
-  height: 26px;
+  width: 70px;
   background-color: #F74187;
   color: white;
   border-style: none;
@@ -19,15 +18,4 @@
   bottom: -780%;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-}
-
-@media screen and (min-width: 1024px) {
-
-  .btn-primary {
-    position: relative;
-    right: 20px;
-    bottom: -125%;
-    margin-bottom: 1rem;
-  }
-
 }
