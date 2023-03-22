@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     z-index: 9999;
+
 }
 
 .JF_container.active {
@@ -17,6 +18,8 @@
 
 .JF_popup {
     position: fixed;
+    height: 35rem;
+    width: 70rem;
     background-color: #F74187;
     border-radius: 1rem;
     padding: 1rem;
@@ -25,22 +28,18 @@
     animation: animationA 1s linear .2s backwards;
     overflow-y: auto;
     z-index: 10000;
+    /* ajout de la propriété overflow-y pour permettre le défilement en mode responsive */
     transition: all 0.5s ease;
-    box-sizing: border-box;
 }
 
 .JFDansPopup {
+    max-height: 30rem;
+    max-width: 30rem;
     position: relative;
     transition: all 0.5s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.JFDansPopup img {
-    width: 100%;
-    height: auto;
-}
+
 
 .titreJF {
     font-family: 'Varela Round', sans-serif;
@@ -105,7 +104,7 @@
 
     /* adjust styles for medium screens */
     .JF_popup {
-        height: auto;
+
         width: 60%;
         max-width: none;
         grid-template-columns: 1fr;
@@ -114,8 +113,11 @@
     }
 
     .JFDansPopup {
-        max-height: auto;
-        max-width: 100%;
+
+        max-width: 30rem;
+        position: relative;
+        display: block;
+        margin: 0 auto;
     }
 
     .JF_description {
