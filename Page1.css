@@ -110,6 +110,7 @@ p {
     /* Ajoute une transparence au texte */
     text-shadow: 4px 4px 5px rgba(117, 102, 115, 0.5);
     /* Ajoute une ombre au texte */
+    pointer-events: none;
 }
 
 .bienvenue span {
