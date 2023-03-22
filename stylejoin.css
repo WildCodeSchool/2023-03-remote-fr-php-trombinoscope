@@ -136,10 +136,33 @@ div {
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     main>img {
         width: 100%;
         object-fit: cover;
     }
+form {
+    width:80%;
+}
+h1 {
+    width:100%;
+    font-size: x-large;
+}
 
+input {
+    width:70%;
+}
+
+textarea.dis-en-plus {
+    width:70%;  
+    height:200px;
+}
+
+select, textarea {
+    width:70%;
+}
+
+    button {
+        font-size:large;
+    }
 }
