@@ -49,6 +49,7 @@ div img {
 
 }
 
+
 @media screen and (min-width: 975px) {
    .galerie {
       justify-content: space-between;
