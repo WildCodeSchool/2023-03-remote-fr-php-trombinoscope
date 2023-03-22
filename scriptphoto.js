@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const images = document.querySelectorAll(".galerie img");
   const options = {
     root: null,
+    rootMargin: "0px",
     threshold: 0.1,
   };
 
