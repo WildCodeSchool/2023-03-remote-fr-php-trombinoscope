@@ -19,3 +19,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
+
+.btn-primary:hover {
+  background-color: #e78f8e;
+}
