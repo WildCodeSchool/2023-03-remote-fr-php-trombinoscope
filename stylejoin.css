@@ -49,6 +49,10 @@ button {
     border-radius: 10px;
 }
 
+button:active {
+    background-color: #e78f8e;
+}
+
 .vibrate {
     animation: vibrate 0.3s linear;
     animation-iteration-count: 3;
@@ -141,28 +145,30 @@ div {
         width: 100%;
         object-fit: cover;
     }
-form {
-    width:80%;
-}
-h1 {
-    width:100%;
-    font-size: x-large;
-}
 
-input {
-    width:70%;
-}
+    form {
+        width: 80%;
+    }
 
-textarea.dis-en-plus {
-    width:70%;  
-    height:200px;
-}
+    h1 {
+        width: 100%;
+        font-size: x-large;
+    }
 
-select, textarea {
-    width:70%;
-}
+    input {
+        width: 70%;
+    }
+
+    textarea.dis-en-plus {
+        width: 70%;
+        height: 200px;
+    }
+
+    select, textarea {
+        width: 70%;
+    }
 
     button {
-        font-size:large;
+        font-size: large;
     }
 }
