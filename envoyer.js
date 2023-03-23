@@ -46,3 +46,35 @@ function validateForm(form) {
 
   return isValid;
 }
+
+// Récupération des éléments HTML pertinents
+const contactForm = document.getElementById("contactForm");
+const overlay = document.querySelector(".overlay");
+const popup = document.querySelector(".popup");
+const fermerPopup = document.getElementById("fermer-popup");
+
+// Fonction pour afficher la popup de confirmation
+function afficherPopup() {
+  overlay.style.display = "block";
+  popup.style.display = "block";
+}
+
+// Fonction pour masquer la popup de confirmation
+function masquerPopup() {
+  overlay.style.display = "none";
+  popup.style.display = "none";
+}
+
+// Ajout d'un gestionnaire d'événements pour le formulaire
+contactForm.addEventListener("submit", function(event) {
+  event.preventDefault(); // Empêche le formulaire de s'envoyer
+
+  // Affiche la popup de confirmation
+  afficherPopup();
+});
+
+// Ajout d'un gestionnaire d'événements pour le bouton de fermeture de la popup
+fermerPopup.addEventListener("click", function() {
+  // Masque la popup de confirmation
+  masquerPopup();
+});

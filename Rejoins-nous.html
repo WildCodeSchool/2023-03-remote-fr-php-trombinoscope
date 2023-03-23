@@ -55,8 +55,6 @@
       <br />
       <input placeholder="Nom" type="text" required />
       <input placeholder="Prénom" type="text" required />
-      <input placeholder="E-mail" type="email" required />
-      <input placeholder="Téléphone" type="text" required />
       <select name="age" id="age">
         <option value="" disabled selected>Age</option>
         <!-- Ajouter les options d'âge ici -->
@@ -67,6 +65,8 @@
         <option value="19">46 - 55 ans</option>
         <option value="19">56 ans et +</option>
       </select>
+      <input placeholder="E-mail" type="email" required />
+      <input placeholder="Téléphone" type="tel" required />
       <textarea
         placeholder="Ecrivez votre question ici"
         rows="5"
@@ -76,6 +76,15 @@
         <button>Envoyer</button>
       </div>
     </form>
+    <!-- Popup de confirmation -->
+    <div class="overlay"></div>
+    <div class="popup">
+      <p>
+        Merci ! Votre formulaire a été soumis avec succès. Nous avons bien reçu
+        votre demande et nous vous contacterons dans les plus brefs délais.
+      </p>
+      <button id="fermer-popup">OK</button>
+    </div>
 
     <p class="Nos">Nos réseaux favoris !</p>
     <div class="reseaux">
