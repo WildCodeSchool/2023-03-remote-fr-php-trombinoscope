@@ -69,19 +69,19 @@ nav ul li a:hover:before {
 }
 
 .nav-link.accueil:hover {
-    background-color: #FC9CC1;
+    background-color: rgb(180, 180, 180);
     color: #333;
     border-radius: 10px;
 }
 
 .nav-link.a-propos:hover {
-    background-color: #F96AA1;
+    background-color: #FC9CC1;
     color: #333;
     border-radius: 10px;
 }
 
 .nav-link.contact:hover {
-    background-color: #fc438a;
+    background-color: #F96AA1;
     color: #333;
     border-radius: 10px;
 }
