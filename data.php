@@ -1,6 +1,7 @@
 <?php
 
 
+
 // Tableau contenant les informations sur les étudiants
 $wilders = [
   [
@@ -118,11 +119,12 @@ $wilders = [
   [
     "nom" => "RAVANEL",
     "prenom" => "Vincent",
-    "petitTitre" => "L'homme aux lunettes' !",
+    "petitTitre" => "L'homme aux lunettes !",
     "email" => "Email : vincentravanel@gmail.com",
     "description" => "Vincent, c'est un prénom qui évoque la finesse et la subtilité, mais qui peut également cacher une passion pour la cuisine bien grasse ! Il peut être un peu sarcastique parfois, mais c'est juste pour cacher sa gentillesse légendaire ! Et si jamais vous cherchez une personne pour vous accompagner dans une soirée karaoké, Vincent est le chanteur le plus excentrique et le plus drôle que vous pourriez trouver !",
     "image" => "VincentR.jpg",
   ],
+
 
 
 ];
