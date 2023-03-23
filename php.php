@@ -30,7 +30,7 @@
       </li>
       <li><a class="nav-link a-propos" href="php.php">L'équipe PHP</a></li>
       <li>
-        <a class="nav-link contact" href="Rejoins-nous.html">Nous Contacter</a>
+        <a class="nav-link contact" href="Rejoins-nous.html">Nous contacter</a>
       </li>
     </ul>
   </nav>
