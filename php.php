@@ -72,7 +72,7 @@
           <div class="Wilder_description">
             <p class="titreWilder"><?php echo $wilder['nom'] ?></p>
             <p class="petitTitreWilder"><?php echo $wilder['petitTitre'] ?></p>
-            <p class="emailWilder"><?php echo $wilder['email'] ?></p><br><br>
+            <p class="emailWilder"><?php echo $wilder['email'] ?></p><br>
             <p class="descriptionWilder"><?php echo $wilder['description'] ?></p>
 
           </div>

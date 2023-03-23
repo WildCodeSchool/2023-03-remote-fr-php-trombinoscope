@@ -36,6 +36,7 @@ input {
     padding: 5px 0;
     border-bottom: solid 1px #F74187;
     color: #353535;
+    padding: .5rem;
 }
 
 button {
@@ -90,6 +91,7 @@ select, textarea {
     border-bottom: solid 1px #F74187;
     color: #353535;
     background-color: transparent;
+    padding: .5rem;
 }
 
 textarea.dis-en-plus {
@@ -173,4 +175,55 @@ div {
     button {
         font-size: large;
     }
+}
+
+
+#contactForm button:hover {
+    background-color: #e78f8e;
+}
+
+
+.dis-en-plus {
+    resize: vertical;
+    height: 100px;
+    max-height: 200px;
+}
+
+/* Style de la popup */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 70%;
+    line-height: 3ch;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+    /* La popup est cachée par défaut */
+}
+
+@media only screen and (min-width: 700px) {
+
+    .popup {
+        width: 50%;
+    }
+
+
+}
+
+/* Style de l'overlay (fond sombre derrière la popup) */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    display: none;
+    /* L'overlay est caché par défaut */
 }
