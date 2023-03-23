@@ -49,7 +49,7 @@
       <div class="JF_description">
         <p class="titreJF">Jean-François MORIN</p>
         <p class="petitTitreJF">Le formateur !</p>
-        <p class="emailJF">Email : JFMorin@gmail.com</p><br>
+        <p class="emailJF">JFMorin@gmail.com</p><br>
         <p>Jean-François, c'est le genre de prénom qui évoque le sérieux, la rigueur et le professionnalisme. On imagine un homme d'affaires respecté et expérimenté. Mais peut-être cache-t-il un côté un peu plus excentrique et surprenant que l'on ne soupçonne pas au premier abord ?</p>
       </div>
     </section>
@@ -60,17 +60,17 @@
     include 'data.php';
     foreach ($wilders as $wilder) : ?>
       <div>
-        <img class="Wilder" src="/images/<?php echo $wilder['image'] ?>" alt="étudiant" />
+        <img class="Wilder" src="/images/<?php echo $wilder['image'] ?>" alt=<?php echo $wilder['prenom'] ?> />
       </div>
       <div class="Wilder_container">
         <section class="Wilder_popup">
           <button class="nav-button prev-button">&lt;</button>
           <button class="nav-button next-button">&gt;</button>
           <div>
-            <img class="WilderDansPopup" src="/images/<?php echo $wilder['image'] ?>" alt="étudiant" />
+            <img class="WilderDansPopup" src="/images/<?php echo $wilder['image'] ?>" alt=<?php echo $wilder['prenom'] ?> />
           </div>
           <div class="Wilder_description">
-            <p class="titreWilder"><?php echo $wilder['nom'] ?></p>
+            <h2 class="titreWilder"><?php echo $wilder['prenom'] ?> <br> <?php echo $wilder['nom'] ?></h2>
             <p class="petitTitreWilder"><?php echo $wilder['petitTitre'] ?></p>
             <p class="emailWilder"><?php echo $wilder['email'] ?></p><br>
             <p class="descriptionWilder"><?php echo $wilder['description'] ?></p>

@@ -33,7 +33,7 @@ div img {
 
 .JF {
    animation-name: slideDown;
-   animation-duration: 2s;
+   animation-duration: 1s;
    animation-timing-function: ease-in-out;
    display: flex;
 
@@ -71,7 +71,7 @@ div img {
 }
 
 .fade-in {
-   animation: fadeIn 2s ease-in forwards;
+   animation: fadeIn .6s ease-in forwards;
 }
 
 @keyframes fadeIn {
