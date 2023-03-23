@@ -95,6 +95,7 @@ select, textarea {
 textarea.dis-en-plus {
     resize: none;
     overflow: hidden;
+    padding: .5rem;
 }
 
 .button-container {
@@ -147,7 +148,7 @@ div {
     }
 
     form {
-        width: 80%;
+        width: 65%;
     }
 
     h1 {
@@ -156,16 +157,17 @@ div {
     }
 
     input {
-        width: 70%;
+        width: 50%;
     }
 
     textarea.dis-en-plus {
-        width: 70%;
-        height: 200px;
+        width: 50%;
+        height: 8rem;
+
     }
 
     select, textarea {
-        width: 70%;
+        width: 50%;
     }
 
     button {
