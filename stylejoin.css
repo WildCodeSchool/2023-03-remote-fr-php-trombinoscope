@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
 
     /* Pour s'assurer que le contenu occupe au moins la hauteur de la fenêtre */
 }
@@ -182,6 +183,10 @@ div {
     background-color: #e78f8e;
 }
 
+#contactForm button {
+    display: block;
+    margin: 0 auto;
+}
 
 .dis-en-plus {
     resize: vertical;
@@ -189,9 +194,15 @@ div {
     max-height: 200px;
 }
 
+.phraseform {
+    font-weight: bold;
+
+}
+
 /* Style de la popup */
 .popup {
     position: fixed;
+    font-family: 'Raleway', sans-serif;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -203,6 +214,7 @@ div {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 999;
     display: none;
+    text-align: center;
     /* La popup est cachée par défaut */
 }
 
@@ -211,7 +223,6 @@ div {
     .popup {
         width: 50%;
     }
-
 
 }
 
