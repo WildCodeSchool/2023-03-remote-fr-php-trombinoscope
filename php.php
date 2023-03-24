@@ -49,7 +49,7 @@
       <div class="JF_description">
         <p class="titreJF">Jean-François MORIN</p>
         <p class="petitTitreJF">Le formateur !</p>
-        <p class="emailJF">JFMorin@gmail.com</p><br>
+        <p class="emailJF">JFMorin@gmail.com</p>
         <p>Jean-François, c'est le genre de prénom qui évoque le sérieux, la rigueur et le professionnalisme. On imagine un homme d'affaires respecté et expérimenté. Mais peut-être cache-t-il un côté un peu plus excentrique et surprenant que l'on ne soupçonne pas au premier abord ?</p>
       </div>
     </section>
@@ -72,7 +72,7 @@
           <div class="Wilder_description">
             <h2 class="titreWilder"><?php echo $wilder['prenom'] ?> <br> <?php echo $wilder['nom'] ?></h2>
             <p class="petitTitreWilder"><?php echo $wilder['petitTitre'] ?></p>
-            <p class="emailWilder"><?php echo $wilder['email'] ?></p><br>
+            <p class="emailWilder"><?php echo $wilder['email'] ?></p>
             <p class="descriptionWilder"><?php echo $wilder['description'] ?></p>
 
           </div>
