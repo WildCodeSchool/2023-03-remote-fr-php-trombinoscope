@@ -74,7 +74,7 @@ a img {
 
 div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 p {
@@ -98,6 +98,7 @@ p {
     font-style: italic;
     font-size: 12px;
 }
+
 .page1rubriques {
     width: 80%;
     margin-left: 10%;
