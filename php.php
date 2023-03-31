@@ -2,17 +2,17 @@
 <html lang="Fr">
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href='https://fonts.googleapis.com' />
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+  <link href='https://fonts.googleapis.com/css2?family=Varela+Round&display=swap' rel='stylesheet' />
   <!-- POLICE LINK RALEWAY (text) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
+  <link rel='preconnect' href='https://fonts.googleapis.com' />
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+  <link href='https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap' rel='stylesheet' />
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, inial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/style.css" />
 
   <title>l' équipe PHP</title>
 </head>
@@ -26,11 +26,11 @@
     </button>
     <ul>
       <li>
-        <a class="nav-link accueil" href="Page1.html">A propos de nous</a>
+        <a class="nav-link accueil" href="/index.html">A propos de nous</a>
       </li>
-      <li><a class="nav-link a-propos" href="php.php">L'équipe PHP</a></li>
+      <li><a class="nav-link a-propos" href="/php.php">L'équipe PHP</a></li>
       <li>
-        <a class="nav-link contact" href="Rejoins-nous.html">Nous contacter</a>
+        <a class="nav-link contact" href="/Rejoins-nous.html">Nous contacter</a>
       </li>
     </ul>
   </nav>
@@ -49,7 +49,7 @@
       <div class="JF_description">
         <p class="titreJF">Jean-François MORIN</p>
         <p class="petitTitreJF">Le formateur !</p>
-        <p class="emailJF">JFMorin@gmail.com</p>
+        <p class="emailJF">JFMorin@....com</p>
         <p>Jean-François, c'est le genre de prénom qui évoque le sérieux, la rigueur et le professionnalisme. On imagine un homme d'affaires respecté et expérimenté. Mais peut-être cache-t-il un côté un peu plus excentrique et surprenant que l'on ne soupçonne pas au premier abord ?</p>
       </div>
     </section>
@@ -89,10 +89,10 @@
 
   <footer>Copyright © 2023 TEAMPHP, Inc.</footer>
 
-  <script src="popupscript.js"></script>
-  <script src="script.js"></script>
-  <script src="scriptphoto.js"></script>
-  <script src="jfscript.js"></script>
+  <script src="/popupscript.js"></script>
+  <script src="/script.js"></script>
+  <script src="/scriptphoto.js"></script>
+  <script src="/jfscript.js"></script>
 </body>
 
 </html>
